@@ -3,18 +3,22 @@ body {
 	font-size: 20px;
 	font-weight: 300;
 	font-family: Helvetica;
+	padding-left: 15%;
+	padding-right: 25%;
 	color: black;
 }
 
 ul {
 	padding: 0;
+	margin-bottom: 0;
+	list-style-type: none;
 }
 
 li {
 	font-size: 20px;
 	font-family: Helvetica;
 	color: black;
-	list-style: disc;
+	list-style: none;
 	text-indent: 10px;
 }
 
@@ -34,7 +38,15 @@ h2 {
 	font-weight: bold;
 }
 
-.school-logo {
+.project {
+	font-weight: bold;
+}
+
+.project-type {
+	font-weight: 400;
+}
+
+.logo {
 	height: auto;
 	width: auto;
 	max-width: 200px;
@@ -46,6 +58,18 @@ h2 {
 	width: auto;
 	max-width: 300px;
 	max-height: 150px;
+}
+
+.employer {
+	font-weight: bold;
+}
+
+.job-title {
+	font-weight: 400;
+}
+
+.skill {
+	font-weight: 400;
 }
 
 .competition {

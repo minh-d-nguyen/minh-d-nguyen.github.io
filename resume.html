@@ -4,79 +4,138 @@
 <head>
 	<title>Minh Nguyen's resume</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="resume-style.css">
+	 <link rel="canonical" href="https://minh-d-nguyen.github.io/">
 </head>
 
 <body>
-	<p>
-		<h1> Minh D. Nguyen</h1>
-	</p>
+	<header class="site-header">
+	<div class="header">
+	<div class="links">
+		<a class="title" href="index.html">Home</a>
+		<a class="page-link" href="bio.html">Biography</a>
+		<a class="page-link" href="resume.html">Resume</a>
+	</div>
 
-	<p>
-		<p> <h3> Education: </h3></p>
-		<p> 
-			Tufts University <br>
-			Computer Science and Mathematics, 2015 - 2019 <br>
-			GPA: 3.95
-		</p>
+		<h1 id="name"> Minh D. Nguyen </h1>
+	</div>
 
-		<p>
-			Hanoi University of Science - High School for Gifted Students <br>
-			Mathematics, 2012 - 2015 <br>
-			GPA: 9.7 (Scale of 10)
-		</p>
+	<div class="resume-body">
+		<h2 class="section"> Education: </h2>
+		<div class="schools">
+			<p>
+				<span class="school-name"> Tufts University </span><br>
+				<img src="tufts.png" alt="Image not found!" class="logo"><br>
+				Computer Science and Mathematics, <span class="year">2015 - 2019</span><br>
+				GPA: 3.95 
+			</p>
 
-		<p> <h3> Awards and Acknowledgements: </h3></p>
-		<p>
-			Microsoft College Code Competition, 2015 <br>
-			Runner-up <br>
-   			Member of the runner-up team in Microsoft College Code Competition held at Tufts University. Competed against 11 teams of all class years.
-		</p>
+			<p>
+				<span class="school-name"> Hanoi University of Science - High School for Gifted Students </span><br>
+				<img src="hsgs.jpg" alt="Image not found!" class="logo"><br>
+				Mathematics, <span class="year"> 2012 - 2015 </span><br>
+				GPA: 9.7 (Scale of 10)<br>
+			</p>
+		</div>
 
-		<p>
-			Tufts Polyhack, 2015 <br>
-			Top 10 <br>
-  			Leader of an all-freshman team at Tufts University Polyhack 2015. <br>
-  			Designed and implemented 2 games based on the Stroop Test and the Pacman Game in C++. <br>   
-  			Ranked in the top 10 out of 35 projects participating. <br>
-		</p>
+		<div class="awards"> <h2 class="section"> Awards and Acknowledgements: </h2></div>
+		<div class="all-awards">
+			<span class="competition"> Microsoft College Code Competition</span>, <span class="year"> 2015 </span><br>
+			<img src="microsoft.png" alt="Image not found!" class="competition-img"><br>
+			<span class="achievement"> Runner-up </span>
+			<ul>
+   				<li> Member of the runner-up team in Microsoft College Code Competition held at Tufts University. Competed against 11 teams of all class years. </li>
+   			</ul><br>
 
-		<p>
-			Vietnam National Mathematics Olympiad, 2015 <br>
-			Second Prize <br>
-			Ranked 4th in Vietnam National Mathematics Olympiad – The most prestigious mathematics competition in Vietnam.
-		</p>
+			<span class="competition"> Tufts Polyhack</span>, <span class="year"> 2015 </span><br>
+			<img src="polyhack.jpg" alt="Image not found!" class="competition-img"><br>
+			<span class="achievement"> Top 10 </span>
+			<ul>
+  				<li> Leader of an all-freshman team at Tufts University Polyhack 2015. </li>
+  				<li> Designed and implemented 2 games based on the Stroop Test and the Pacman Game in C++. </li>  
+  				<li> Ranked in the top 10 out of 35 projects participating. </li>
+  			</ul><br>
 
-		<p><h3>Experience:</h3></p>
+
+			<span class="competition"> Vietnam National Mathematics Olympiad</span>,<span class="year"> 2015 </span><br>
+			<img src="vmo.jpg" alt="Image not found!" class="competition-img"><br>
+			<span class="achievement">Second Prize </span>
+			<ul>
+				<li> Ranked 4th in Vietnam National Mathematics Olympiad – The most prestigious mathematics competition in Vietnam. </li>
+			</ul>
+		</div>
+
+		<div class="experience"><h2 class="section">Experience:</h2></div>
+
+		<div class="experience-list">
 		
-		<p>	
-			Tufts University Human - Robot Interaction Laboratory <br>
-			Undergraduate Research Assistant, 2016 - <br>
-  			Implemented the Python version for the neural field model for real time speech perception project. <br>
-  			Participated in discussions on how to improve the prediction accuracy of the model. <br>
-		</p>
+			<span class="employer"> Tufts University Human - Robot Interaction Laboratory</span><br>
+			<img src="hri.jpg" alt="Image not found!" class="logo"><br>
+			<span class="job-title">Undergraduate Research Assistant</span>, <span class="year"> 2016 - </span>
+			<ul>
+  				<li> Implemented the Python version for the neural field model for real time speech perception project. </li>
+	  			<li> Participated in discussions on how to improve the prediction accuracy of the model. </li>
+  			</ul><br>
 
-		<p>
-			Tufts University Academic Resource Center <br>
-			Discrete Mathematics On-Call Tutor, 2017 - <br>
-			Tutored students in discrete mathematics concepts and methods, such as induction and graph theory, through individual tutoring and review sessions.
-		</p>
+			<span class="employer"> Tufts University Academic Resource Center</span><br>
+			<img src="arc.jpg" alt="Image not found!" class="logo"><br>
+			<span class="job-title"> Discrete Mathematics On-Call Tutor</span>, <span class="year"> 2017 - </span><br>
+			<ul>
+				<li> Tutored students in discrete mathematics concepts and methods, such as graph theory, through individual tutoring and review sessions. </li>
+			</ul><br>
+		
 
-		<p>
-			Hanoi University of Science High School for Gifted Students (HUS - HSGS) <br>
-			Computer Science Olympiad Team Trainer, 2016 <br>
-			Prepared the HUS HSGS Computer Science Olympiad Team, one of the best in Vietnam, for national and international competitions such as the International Olympiad in Informatics. <br>
-  			Taught how mathematics concepts and theorems such as the Hall’s marriage theorem or the invariant principle can be applied in computer science. <br>
+			<span class="employer"> Hanoi University of Science High School for Gifted Students (HUS - HSGS)</span><br>
+			<img src="hsgs.jpg" alt="Image not found!" class="logo"><br>
+			<span class="job-title"> Computer Science Olympiad Team Trainer</span>, <span class="year">2016 </span><br>
+			<ul>
+				<li> Prepared the HUS HSGS Computer Science Olympiad Team, one of the best in Vietnam, for national and international competitions such as the International Olympiad in Informatics. </li>
+  				<li> Taught how mathematics concepts and theorems such as the Hall’s marriage theorem or the invariant principle can be applied in computer science. </li>
+  			</ul>
+		</div>
 
-		</p>
-		<p><h3>Skills:</h3></p>
-		<p>
-			Languages: C, C++, Python, Java, HTML5, JavaScript, Matlab<br>
-  			OS: Linux, Windows, Mac, Android <br>
-  			IDEs: Eclipse, Pycharm, Android Studio <br>
-  			Softwares: Git, TensorFlow, SPSS
-		</p>
+		<div class="skills"><h2 class="section">Skills:</h2></div>
+		<ul>
+			<li><span class="skill"> Languages</span>: C, C++, Python, Java, HTML5, JavaScript, Matlab</li>
+  			<li><span class="skill"> OS</span>: Linux, Windows, Mac, Android </li>
+  			<li><span class="skill"> IDEs</span>: Eclipse, Pycharm, Android Studio </li>
+  			<li><span class="skill"> Softwares</span>: Git, TensorFlow, SPSS </li>
+		</ul>
 
-		<p><h3>Projectss:</h3></p>
-	</p>
+		<div class="projects"><h2 class="section">Projects:</h2></div>
+		
+		<div class="all-projects">
+			<span class="project"> Neural Field for Speech Recognition </span><br>
+			<span class="project-type"> Python program</span>,
+			<ul>
+  				<li> Given the implementation of the neural field model in C++, re-implemented the model in Python using TensorFlow for better scalability. Doubled the maximum size of the sound data set processable by the model. </li>
+  				<li> Updated the Python version based on changes in the formalism as the research continued. </li>
+  				<li> The latest version identified spoken words with roughly 35% accuracy. </li>
+  			</ul><br>
+
+			<span class="project"> PickUp Sports</span><br>
+			<span class="project-type"> Android application</span>,
+			<ul>
+				<li> Designed the structure of an application that facilitates the organization of pick up sport games at Tufts University. </li>
+				<li> Currently developing the front end components of the application. </li>
+  				<li> Used Java, written in Android Studio. </li>
+  			</ul><br>
+
+			<span class="project"> Image Compressor and Decompressor </span><br>
+			<span class="project-type"> C program</span>,
+			<ul>
+  				<li> Used quantization of pixels and bit-level manipulations to transform each 2x2 pixel block into a 32-bit word. </li>
+  				<li> Reduced (on average) 66.7% in image size. Decompression restored (on average) 98.2% of the original image. </li>
+  				<li> Used C, written in Linux environment. </li>
+  			</ul><br>		
+
+			<span class="project"> Scanned Document Black Edge Remover </span><br>
+			<span class="project-type"> C program,</span>
+			<ul>
+  				<li> Used depth first search to identify and delete black edge pixels in scanned images of documents. </li>
+  				<li> Used C, written in Linux environment. </li>
+			</ul>
+		</div>
+	</div>
 </body>
 </html>
